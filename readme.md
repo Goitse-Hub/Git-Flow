@@ -4,6 +4,7 @@ version (0.0.0)  .Current Dir
 docker build -t goitsehub/dockertest:0.0.0.RELEASE .
 
 
+
 #RUN
 docker container run -d -p 3000:3000 goitsehub/dockertest:0.0.0.RELEASE
 
@@ -16,7 +17,7 @@ Upload Docker
 docker push goitsehub/dockertest:0.0.0.RELEASE
 \
 
-
+<--
 <div class="bg-white" id="contain">
     <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="relative isolate overflow-hidden bg-slate-200 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 flex flex-col-reverse lg:flex-row">
@@ -163,3 +164,4 @@ background: #FFF;
     height: 12rem;
 }
   
+--/>
